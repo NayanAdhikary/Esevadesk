@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EsevaDesk - Digital Services Gateway</title>
+    <meta name="description" content="Official unified digital services portal for PAN card, PF, banking AePS, utility bills, business licenses, and digital certificates." />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <!-- Tailwind CSS with Stitch Project Theme -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed": "#89f5e7",
+              "surface-dim": "#cbdbf5",
+              "on-secondary-fixed-variant": "#7f2b00",
+              "secondary": "#a73a00",
+              "error": "#ba1a1a",
+              "tertiary": "#001815",
+              "outline-variant": "#c4c6cf",
+              "on-error": "#ffffff",
+              "on-surface": "#0b1c30",
+              "primary-fixed-dim": "#b0c8f1",
+              "on-primary-fixed": "#001b3b",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary": "#ffffff",
+              "on-error-container": "#93000a",
+              "surface-container": "#e5eeff",
+              "error-container": "#ffdad6",
+              "primary": "#00142f",
+              "on-tertiary-fixed": "#00201d",
+              "surface-container-high": "#dce9ff",
+              "on-secondary": "#ffffff",
+              "tertiary-container": "#002f2a",
+              "inverse-surface": "#213145",
+              "on-surface-variant": "#44474e",
+              "secondary-fixed": "#ffdbce",
+              "on-primary-fixed-variant": "#30476a",
+              "on-background": "#0b1c30",
+              "on-primary": "#ffffff",
+              "inverse-primary": "#b0c8f1",
+              "on-tertiary-fixed-variant": "#005049",
+              "on-tertiary-container": "#28a094",
+              "on-secondary-fixed": "#370e00",
+              "tertiary-fixed-dim": "#6bd8cb",
+              "surface-bright": "#f8f9ff",
+              "surface-variant": "#d3e4fe",
+              "secondary-container": "#fd651e",
+              "secondary-fixed-dim": "#ffb599",
+              "surface-tint": "#485f83",
+              "on-primary-container": "#7a91b7",
+              "primary-container": "#0f294a",
+              "outline": "#74777f",
+              "on-secondary-container": "#571a00",
+              "primary-fixed": "#d5e3ff",
+              "background": "#f8f9ff",
+              "surface-container-low": "#eff4ff",
+              "surface": "#f8f9ff",
+              "inverse-on-surface": "#eaf1ff",
+              "surface-container-highest": "#d3e4fe"
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "sm": "0.25rem",
+              "md": "0.75rem",
+              "lg": "1rem",
+              "xl": "1.5rem",
+              "full": "9999px"
+            },
+            spacing: {
+              "space-xs": "0.25rem",
+              "space-sm": "0.5rem",
+              "space-md": "1rem",
+              "space-lg": "1.5rem",
+              "space-xl": "2.5rem",
+              "gutter": "1.5rem",
+              "gutter-mobile": "1rem",
+              "margin": "2rem",
+              "margin-mobile": "1rem"
+            },
+            fontFamily: {
+              sans: ["Inter", "Plus Jakarta Sans", "system-ui", "sans-serif"],
+              display: ["Plus Jakarta Sans", "sans-serif"],
+              headline: ["Plus Jakarta Sans", "sans-serif"]
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-background text-on-surface antialiased min-h-screen flex flex-col">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+

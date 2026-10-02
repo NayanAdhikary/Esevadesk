@@ -1,0 +1,26 @@
+.site-footer {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 4rem 0 1rem;
+  margin-top: 4rem;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-grid h4, .footer-grid h5 { margin-bottom: 1rem; }
+.footer-grid h4 { font-size: 1.4rem; }
+.footer-grid h5 { font-size: 1.1rem; color: #a9c6f5; }
+.footer-grid a {
+  display: block; color: #d4e2fc; margin-bottom: 0.5rem; font-size: 0.95rem;
+}
+.footer-grid a:hover { color: #fff; }
+.footer-bottom {
+  border-top: 1px solid #1a4b8c;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #a9c6f5;
+}

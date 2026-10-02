@@ -1,0 +1,20 @@
+module.exports = [
+  { id: 'aadhaar', name: 'Aadhaar', icon: '🆔', category: 'Identity', items: ['Address Update', 'DOB Update', 'PVC Card Order', 'All Links'], price: '₹150 onwards' },
+  { id: 'pan', name: 'PAN Card', icon: '📄', category: 'Identity', items: ['New PAN', 'Lost PAN', 'Business PAN'], price: '₹250 onwards' },
+  { id: 'voter', name: 'Voter ID', icon: '🗳️', category: 'Identity', items: ['All Services'], price: '₹120 onwards' },
+  { id: 'pf', name: 'PF (Provident Fund)', icon: '🏦', category: 'Finance', items: ['Withdraw', 'Passbook', 'All Kind of Works'], price: '₹300 onwards' },
+  { id: 'passport', name: 'Passport', icon: '🛂', category: 'Travel', items: ['Renew', 'New Apply'], price: '₹800 onwards' },
+  { id: 'visa', name: 'Visa', icon: '✈️', category: 'Travel', items: ['New Apply'], price: '₹1,500 onwards' },
+  { id: 'car-rentals', name: 'Car Rentals', icon: '🚗', category: 'Travel', items: ['Bike', 'Car'], price: '₹1,200 / day' },
+  { id: 'cash-deposit', name: 'Cash Deposit', icon: '💰', category: 'Banking', items: ['Deposit'], price: '₹50 onwards' },
+  { id: 'travel', name: 'Travel Services', icon: '🧳', category: 'Travel', items: ['Food', 'Fire', 'WiFi', 'Bike', 'Car'], price: '₹499 onwards' },
+  { id: 'licence', name: 'Licence', icon: '📝', category: 'Identity', items: ['Trade Licence', 'New Licence', 'Renew'], price: '₹400 onwards' },
+  { id: 'ele-billpay', name: 'Electricity Bill Pay', icon: '⚡', category: 'Bills', items: ['Bill Payment'], price: '₹20 fee' },
+  { id: 'all-bills', name: 'All Bill Payments', icon: '🧾', category: 'Bills', items: ['Tax', 'Khajna', 'Water', 'Gas', 'Broadband'], price: '₹30 onwards' },
+  { id: 'lic', name: 'LIC Premium', icon: '🛡️', category: 'Finance', items: ['Premium Pay'], price: '₹50 onwards' },
+  { id: 'doc-consult', name: 'Doc Consult', icon: '💬', category: 'Documents', items: ['New Lic', 'Export', 'Notary'], price: '₹500 onwards' },
+  { id: 'dtdc', name: 'DTDC Courier', icon: '📦', category: 'Documents', items: ['Domestic', 'International', 'Tracking'], price: '₹60 onwards' },
+  { id: 'photo', name: 'Passport Size Photo', icon: '📸', category: 'Documents', items: ['Instant Print', 'Digital Copy', 'Export'], price: '₹80 / 8 copies' },
+  { id: 'tax-khajna', name: 'Tax / Khajna Pay', icon: '🏛️', category: 'Bills', items: ['Property Tax', 'Land Khajna', 'Municipal Tax'], price: '₹40 onwards' },
+  { id: 'banking', name: 'Banking Service', icon: '🏧', category: 'Banking', items: ['Account Opening', 'Cash Withdrawal', 'Balance Enquiry'], price: '₹30 onwards' }
+];
